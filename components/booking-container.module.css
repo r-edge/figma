@@ -1,0 +1,141 @@
+.airlinelogoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.singaporeAirlines {
+  position: relative;
+  line-height: 16px;
+}
+.airline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.price {
+  position: relative;
+  font-size: var(--typography-body-1-size);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  text-align: right;
+}
+.airlinePrice {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.depcode {
+  position: relative;
+  font-weight: 600;
+}
+.depname {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+}
+.departure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.flightIcon {
+  position: relative;
+  width: 48.83px;
+  height: 11.96px;
+  flex-shrink: 0;
+}
+.arrname {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+  text-align: right;
+}
+.arrival,
+.locations {
+  display: flex;
+  justify-content: flex-start;
+}
+.arrival {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-11xs);
+}
+.locations {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-6xs);
+  font-size: var(--typography-body-1-size);
+  color: var(--color-cornflowerblue-200);
+}
+.classIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.class,
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.class {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.details {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.expedia {
+  color: var(--color-royalblue);
+}
+.timeago {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  color: var(--color-orange-100);
+}
+.bookingCard,
+.provider {
+  align-self: stretch;
+  display: flex;
+}
+.provider {
+  border-top: 1px solid var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookingCard {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}
